@@ -26,6 +26,9 @@ No patches needed. The reverse proxy thinks it's talking to the backend directly
 
 ```bash
 pip install -r requirements.txt
+OR
+pacman -S python-aiohttp
+or whatever your package manager has
 ```
 
 Requires Python 3.8+.
